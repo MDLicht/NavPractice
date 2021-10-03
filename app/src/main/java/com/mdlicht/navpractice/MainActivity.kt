@@ -1,7 +1,6 @@
 package com.mdlicht.navpractice
 
 import android.os.Bundle
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.mdlicht.navpractice.databinding.ActivityMainBinding
