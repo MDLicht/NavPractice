@@ -12,7 +12,7 @@ class SplashActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        Observable.timer(3, TimeUnit.SECONDS)
+        Observable.timer(1, TimeUnit.SECONDS)
             .doOnComplete {
                 moveToMainActivity()
             }
